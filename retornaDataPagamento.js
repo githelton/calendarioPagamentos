@@ -13,6 +13,7 @@ const retornaProximosPagamentos = (numeroPagamentos) => {
 
         pagamentoFiltroFormatado.push({
             nome: pagamento.nome,
+            valor: pagamento.valor,
             diaSemana: diaSemana,
             data: dataPagamentoFormatado
         });

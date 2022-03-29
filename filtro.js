@@ -15,6 +15,7 @@ const filtraPagamentos = (pagamentos, numeroPagamentos) => {
         }
         proximosPagamentos.push({
             nome: pagamento.nome,
+            valor: pagamento.valor,
             data: novaDataPagamento
         });
     });
